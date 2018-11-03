@@ -7,7 +7,7 @@ env:
 services:
 - docker
 before_install:
-- openssl aes-256-cbc -K $encrypted_82766e747237_key -iv $encrypted_82766e747237_iv
+- openssl aes-256-cbc -K $encrypted_265fd5ebee35_key -iv $encrypted_265fd5ebee35_key
   -in Unity_v2017.x.ulf.enc -out ./Unity_v2017.x.ulf -d
 - export UNITY_LICENSE_CONTENT=`cat Unity_v2017.x.ulf`
 - rm Unity_v2017.x.ulf
