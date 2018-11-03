@@ -3,7 +3,7 @@ language: bash
 env:
   global:
   - IMAGE_NAME=gableroux/unity3d:2017.3.0f1
-  - BUILD_NAME=ExampleProjectName
+  - BUILD_NAME=hello-world-ci
 services:
 - docker
 before_install:
